@@ -1,0 +1,636 @@
+{
+  "evaluations": [
+    {
+      "case_id": "TC-01",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#已知与待确认"
+          ],
+          "reason": "明确列出会改变设计的六类缺口，优先追问四项，并把骨架全部标为待确认。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#课程信息"
+          ],
+          "reason": "除题干给定课程和时长外，所有对象、资源和模板字段均留空或条件化。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#目标证据与标准"
+          ],
+          "reason": "每项条件化目标均包含行为、任务条件、产物和可判定要求。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#目标证据与标准"
+          ],
+          "reason": "三个目标逐一列出对应活动、验收物和合格判定，未把未确认主题伪装成既定内容。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#90分钟流程待资源确认后细化"
+          ],
+          "reason": "每段分别给出教师动作、学生动作、检查点和纠错动作。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#目标证据与标准"
+          ],
+          "reason": "辨析单、方案卡和边界记录均有必备内容与判定条件。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#90分钟流程待资源确认后细化"
+          ],
+          "reason": "六段时间合计90分钟，含诊断、练习、反馈和收束；并明确待资源确认后细化。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#90分钟流程待资源确认后细化"
+          ],
+          "reason": "不默认机房、网络、账号或教材，并为资源不足给出纸笔等价方案。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-01.md#支持与拓展触发条件待确认"
+          ],
+          "reason": "给出诊断触发的支架、提前完成拓展和安全边界。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-02",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#输入事实与边界"
+          ],
+          "reason": "对象、范围、时长及限定资源均逐项引用本例 fixture_facts。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#输入事实与边界"
+          ],
+          "reason": "未增加学生电脑、网络、账号、软件或额外打印材料。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#目标活动评价"
+          ],
+          "reason": "三个目标都有给定条件、可见动作、产物与数量或格式标准。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#目标活动评价"
+          ],
+          "reason": "路径读取、绘图和纠错分别有专门活动与对应验收物。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#90分钟过程"
+          ],
+          "reason": "教师示范、追问、巡视和纠错，以及学生角色、操作与修订均具体可执行。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#目标活动评价"
+          ],
+          "reason": "路径记录、A3图和互评改写均有可核查的内容与正确性标准。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#90分钟过程"
+          ],
+          "reason": "各段精确合计90分钟，纸笔任务量与4人小组条件相称。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#输入事实与边界"
+          ],
+          "reason": "核心活动完全使用列明纸卡、A3纸、记号笔、投影和黑板，投影故障还有板书替代。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-02.md#支持与拓展"
+          ],
+          "reason": "诊断后给出三栏支架，并为先完成者提供不增资源的比较任务。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-03",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#输入事实与范围"
+          ],
+          "reason": "完整采用题干给定对象、时长、资源、产出和范围边界。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#输入事实与范围"
+          ],
+          "reason": "不把无手机条件改写为数字化活动，也不添加平台规则等范围外事实。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#目标活动评价"
+          ],
+          "reason": "标注、改写和说明理由三个目标均有明确任务对象、数量和判定标准。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#目标活动评价"
+          ],
+          "reason": "三项目标均对应拆解、改写互审或展示追问，并有独立证据。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#45分钟过程"
+          ],
+          "reason": "过程写明示范、追问、巡视、口头提示及学生标注、互审和修订。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#目标活动评价"
+          ],
+          "reason": "练习单、两条改写和理由句均给出具体必备要素，退出条补充个体证据。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#45分钟过程"
+          ],
+          "reason": "时间精确合计45分钟，标注、改写、互审与展示共28分钟，实践占主要部分。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#输入事实与范围"
+          ],
+          "reason": "所有活动依赖普通教室、教师投影、练习单和笔，未要求学生手机。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-03.md#支持与拓展"
+          ],
+          "reason": "有词类困难的句式支架、降阶的一条改写任务和范围内拓展。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-04",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#输入事实与安全边界"
+          ],
+          "reason": "对象、先备知识、范围、产出和隔离条件均明确处理。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#输入事实与安全边界"
+          ],
+          "reason": "不虚构额外系统能力，且明确排除 ACL、SUID 与 chown。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#目标活动评价"
+          ],
+          "reason": "三目标均写出用户目录条件、命令或诊断行为、证据与正确阈值。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#目标活动评价"
+          ],
+          "reason": "字符法、数字法、ls -l验证和三题诊断都有对应练习与评价。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#90分钟过程"
+          ],
+          "reason": "每一环节分列师生动作、过程检查、常见错误与纠正流程。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#诊断单题目与评分"
+          ],
+          "reason": "操作记录和诊断单均有提交内容、逐题分值、命令边界和合格线。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#90分钟过程"
+          ],
+          "reason": "九段精确合计90分钟，包含演示、独立操作、诊断、讲评与收束。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#输入事实与安全边界"
+          ],
+          "reason": "使用每人虚拟机且所有 chmod 操作限制在 ~/chmod-lab；误操作有停止、教师协助和快照回滚。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-04.md#支持与拓展"
+          ],
+          "reason": "提供九格读权限支架、明确的排错序列和同范围进阶任务。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-05",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#输入事实与边界"
+          ],
+          "reason": "人数、18台设备、素材位置、范围和两项交付均据题干明确列出。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#资源与分工"
+          ],
+          "reason": "只把18台AE电脑及桌面素材作为必要条件，演示屏和提交位置仅为可选便利。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#目标证据"
+          ],
+          "reason": "关键帧、缓入缓出和角色轮换目标均有操作条件和可检查证据。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#验收与判定"
+          ],
+          "reason": "每个目标对应制作环节及工程、视频、角色注释的具体验收。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#教学过程合计135分钟"
+          ],
+          "reason": "教师口令、巡视和故障处理与学生角色、轮换、保存和检查均被具体规定。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#验收与判定"
+          ],
+          "reason": "工程、视频、时长、时间轴关键帧、缓入缓出和轮换记录均有检查方式与退回补交规则。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#教学过程合计135分钟"
+          ],
+          "reason": "七段合计135分钟，专门留出20分钟保存、渲染及10分钟故障缓冲。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#资源与分工"
+          ],
+          "reason": "两人一机角色轮换直接适配18台设备，且没有引入图表编辑器、表达式或插件。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-05.md#支持与拓展"
+          ],
+          "reason": "针对Position定位与单选关键帧给提示卡，并有不越界的提前完成任务。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-06",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#输入核查与保真边界"
+          ],
+          "reason": "明确核查参考夹具，列明已知信息，且把教师、教材、审核人作为必须留空的未知项。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#保留栏的填入方案"
+          ],
+          "reason": "学校、班级、课程、页眉均来自本例夹具；三个未提供字段保持空白，不声称完全复刻。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#教学目标证据"
+          ],
+          "reason": "判断、按位计算和错误诊断目标均具任务数量、行为和可检查证据。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#教学过程合计90分钟"
+          ],
+          "reason": "概念建模、分步计算、成对练习和独立诊断分别承接三个目标并在评价段验收。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#教学过程合计90分钟"
+          ],
+          "reason": "教师分色示范、逐步停顿、追问纠错和学生计算、互检、独立作答均具体。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#评价资源与支持"
+          ],
+          "reason": "列出四类验收物及5/6、两题步骤和诊断改正值等明确标准与检查方式。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#教学过程合计90分钟"
+          ],
+          "reason": "六段时间精确合计90分钟，含前测、示范、练习、独立判断和讲评。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#评价资源与支持"
+          ],
+          "reason": "活动只以夹具给定投影、地址题讲义和纸笔为前提，并说明不依赖机房、账号或教材。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-06.md#评价资源与支持"
+          ],
+          "reason": "前测触发二进制位对齐支架与半成品卡，另有/27范围内拓展。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-07",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-07.md#操作前确认"
+          ],
+          "reason": "先核对源资产、哈希和精确授权路径，并只生成新副本。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-07.md#授权修改清单"
+          ],
+          "reason": "三处新值逐字对应 source_fixture 的用户修订值，未新增学校、资源或其他事实。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-07.md#授权修改清单"
+          ],
+          "reason": "修订后的能力目标给出拓扑、连线、链路灯和ping记录等可观察行为与条件。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-07.md#授权修改清单"
+          ],
+          "reason": "目标、stage[3]实践动作和练习单记录形成直接证据链；既有其余环节被要求保持。"
+        },
+        {
+          "id": "D5",
+          "score": 3,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/fixtures/tc-07-source-assets.md#保持不变的既有课次上下文"
+          ],
+          "reason": "基线保证原过程含教师演示、端口检查和分步支架，修订字段补足学生双人动作；但候选未逐项重述教师动作，局部修改场景下不应改写它们。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-07.md#授权修改清单"
+          ],
+          "reason": "练习单明确要求端口、两处指示灯和一次ping结果，且基线保留练习单收取标准。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/fixtures/tc-07-source-assets.md#保持不变的既有课次上下文"
+          ],
+          "reason": "原90分钟时间分配受禁止变更约束而保持不变；新增内容位于授权文本内。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/fixtures/tc-07-source-assets.md#保持不变的既有课次上下文"
+          ],
+          "reason": "仅使用既有隔离练习工位、终端和线缆，并只在允许的练习网络运行ping。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/fixtures/tc-07-source-assets.md#保持不变的既有课次上下文"
+          ],
+          "reason": "原有困难学生分步图和提前完成者故障定位拓展必须保持不变。"
+        }
+      ]
+    },
+    {
+      "case_id": "TC-08",
+      "reviewer_id": "reviewer-d-v2",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#TC-08候选输出Excel绝对引用45分钟单课时"
+          ],
+          "reason": "按题意仅做一课时，不补写封面、进度表、学校或学期信息。"
+        },
+        {
+          "id": "D2",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#TC-08候选输出Excel绝对引用45分钟单课时"
+          ],
+          "reason": "只使用已知每人一机及既有公式、相对引用先备知识，没有虚构学校或模板事实。"
+        },
+        {
+          "id": "D3",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#目标证据"
+          ],
+          "reason": "改写、判断和解释均有明确表格情境、数量、产物和正确阈值。"
+        },
+        {
+          "id": "D4",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#教学过程合计45分钟"
+          ],
+          "reason": "示范与独立任务对应绝对引用操作，退出题与备注分别验证判断和解释。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#教学过程合计45分钟"
+          ],
+          "reason": "各段均分列教师提示、巡视和检查，以及学生输入、填充、互查和作答。"
+        },
+        {
+          "id": "D6",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#验收资源与差异支持"
+          ],
+          "reason": "工作簿与退出题有8行公式、$E$2、计算一致性、3/4正确和解释等可核查标准。"
+        },
+        {
+          "id": "D7",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#教学过程合计45分钟"
+          ],
+          "reason": "六段精确合计45分钟，包含示范、引导、独立操作、互查和退出题。"
+        },
+        {
+          "id": "D8",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#验收资源与差异支持"
+          ],
+          "reason": "核心任务适配每人一台电脑，不依赖网络、账号、投影或预置数据文件。"
+        },
+        {
+          "id": "D9",
+          "score": 4,
+          "evidence_paths": [
+            "skills/teaching-plan/evals/artifacts/candidates/TC-08.md#验收资源与差异支持"
+          ],
+          "reason": "提供坐标对照卡与两行半成品支架，并有固定汇率的进阶任务。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "template_id": "default_vocational",
+  "name": "中职标准化教学设计模板（六环节/多环节自适应）",
+  "version": "2.0.0",
+  "pagination": {
+    "lesson_start": "new_page",
+    "keep_reflection_with_previous": true
+  },
+  "cover": {
+    "top_spacing_paragraphs": 5,
+    "title": {
+      "bind": "{{ cover.title | default('教  学  设  计') }}",
+      "font_name": "微软雅黑",
+      "size_pt": 42.0,
+      "bold": true,
+      "align": "CENTER"
+    },
+    "subtitle": {
+      "bind": "{{ cover.subtitle | default('') }}",
+      "font_name": "楷体_GB2312",
+      "size_pt": 16.0,
+      "bold": false,
+      "align": "CENTER"
+    },
+    "mid_spacing_paragraphs": 4,
+    "info_table": {
+      "total_width_dxa": 5800,
+      "col_widths_dxa": [2000, 3800],
+    "cell_margins_dxa": {
+      "top": 40,
+      "bottom": 40,
+      "left": 0,
+      "right": 0
+      },
+      "label_style": {
+        "font_name": "楷体_GB2312",
+        "size_pt": 16.0,
+        "bold": true,
+        "line_spacing": 1.3,
+        "space_before_pt": 4.0,
+        "space_after_pt": 4.0,
+        "align": "LEFT"
+      },
+      "val_style": {
+        "font_name": "楷体_GB2312",
+        "size_pt": 16.0,
+        "bold": false,
+        "line_spacing": 1.3,
+        "space_before_pt": 4.0,
+        "space_after_pt": 4.0,
+        "align": "LEFT"
+      }
+    },
+    "bottom_spacing_paragraphs": 5,
+    "school": {
+      "bind": "{{ cover.school | default('') }}",
+      "font_name": "微软雅黑",
+      "size_pt": 16.0,
+      "bold": true,
+      "align": "CENTER",
+      "space_after_pt": 6.0
+    },
+    "date": {
+      "bind": "{{ cover.date | default('') }}",
+      "font_name": "微软雅黑",
+      "size_pt": 14.0,
+      "bold": false,
+      "align": "CENTER",
+      "space_after_pt": 0.0
+    }
+  },
+  "schedule": {
+    "title": {
+      "bind": "{{ schedule.title | default('教学进度表') }}",
+      "font_name": "微软雅黑",
+      "size_pt": 18.0,
+      "bold": true,
+      "align": "CENTER",
+      "space_before_pt": 0.0,
+      "space_after_pt": 6.0
+    },
+    "table": {
+      "tbl_style": "5",
+      "cant_split": true,
+      "cell_margins_dxa": {
+        "top": 30,
+        "left": 50,
+        "bottom": 30,
+        "right": 50
+      },
+      "grid_cols_dxa": [650, 500, 400, 850, 1750, 650, 750, 1350, 972, 650]
+    }
+  },
+  "lesson_table": {
+    "title_header": {
+      "bind": "{{ lesson.lesson_num }}",
+      "font_name": "微软雅黑",
+      "size_pt": 14.0,
+      "bold": true,
+      "align": "LEFT",
+      "space_before_pt": 6.0,
+      "space_after_pt": 2.0
+    },
+    "table": {
+      "tbl_style": "5",
+      "cant_split": false,
+      "cell_margins_dxa": {
+        "top": 40,
+        "left": 108,
+        "bottom": 40,
+        "right": 108
+      },
+      "grid_cols_dxa": [1438, 1153, 4235, 1696]
+    },
+    "sections": [
+      {
+        "type": "static_row",
+        "description": "课题",
+        "cells": [
+          { "text": "课  题", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+          { "bind": "{{ lesson.title }}", "colspan": 3, "align": "CENTER", "bold": true, "size_pt": 12.0 }
+        ]
+      },
+      {
+        "type": "row_group",
+        "description": "教学目标",
+        "rowspan_header": {
+          "text": "教\n学\n目\n标",
+          "colspan": 1,
+          "align": "CENTER",
+          "bold": true,
+          "size_pt": 12.0
+        },
+        "sub_rows": [
+          {
+            "cells": [
+              { "text": "知识\n目标", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+              { "bind": "{{ lesson.knowledge_obj }}", "colspan": 2, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+            ]
+          },
+          {
+            "cells": [
+              { "text": "能力\n目标", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+              { "bind": "{{ lesson.ability_obj }}", "colspan": 2, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+            ]
+          },
+          {
+            "cells": [
+              { "text": "素养\n目标", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+              { "bind": "{{ lesson.quality_obj }}", "colspan": 2, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "static_rows",
+        "description": "基础信息6行",
+        "items": [
+          { "label": "教学重点", "value": "{{ lesson.key_points }}" },
+          { "label": "教学难点", "value": "{{ lesson.difficult_points }}" },
+          { "label": "教    法", "value": "{{ lesson.teaching_methods }}" },
+          { "label": "学    法", "value": "{{ lesson.learning_methods }}" },
+          { "label": "课 时 数", "value": "{{ lesson.hours | default('2课时') }}" },
+          { "label": "教学环境\n与资源", "value": "{{ lesson.env_resources }}" }
+        ],
+        "row_template": {
+          "cells": [
+            { "bind": "{{ item.label }}", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+            { "bind": "{{ item.value }}", "colspan": 3, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+          ]
+        }
+      },
+      {
+        "type": "static_row",
+        "description": "教学过程大标题",
+        "cells": [
+          { "text": "教  学  过  程", "colspan": 4, "align": "CENTER", "bold": true, "size_pt": 12.0 }
+        ]
+      },
+      {
+        "type": "static_row",
+        "description": "教学过程表头",
+        "cells": [
+          { "text": "教 学\n环 节", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+          { "text": "教 学 设 计", "colspan": 2, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+          { "text": "设 计 意 图", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 }
+        ]
+      },
+      {
+        "type": "repeater",
+        "description": "动态教学环节循环",
+        "paragraph_groups": true,
+        "balance_columns": true,
+        "continuous_borders": true,
+        "paragraph_space_before_pt": 0.0,
+        "paragraph_space_after_pt": 0.0,
+        "max_unsplit_height_fraction": 0.82,
+        "bind_list": "lesson.stages",
+        "row_template": {
+          "cells": [
+            { "bind": "{{ item.stage_index }}\n{{ item.stage_name }}", "colspan": 1, "align": "CENTER", "bold": true, "size_pt": 12.0 },
+            { "bind": "{{ item.design }}", "colspan": 2, "align": "LEFT", "bold": false, "size_pt": 12.0 },
+            { "bind": "{{ item.intent }}", "colspan": 1, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+          ]
+        }
+      },
+      {
+        "type": "static_row",
+        "description": "教学反思大标题",
+        "cells": [
+          { "text": "教  学  反  思", "colspan": 4, "align": "CENTER", "bold": true, "size_pt": 12.0 }
+        ]
+      },
+      {
+        "type": "reflection_blank",
+        "description": "空白手写反思区",
+      "default_lines": 4,
+      "lesson_0_lines": 3,
+        "cells": [
+          { "colspan": 4, "align": "LEFT", "bold": false, "size_pt": 12.0 }
+        ]
+      }
+    ]
+  }
+}

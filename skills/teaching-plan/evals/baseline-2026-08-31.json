@@ -1,0 +1,196 @@
+{
+  "rubric_version": "1.0",
+  "created_at": "2026-08-31",
+  "scope": "当前两个内置示例的可审计成品基线；缺少原始请求时，D1/D2 只能保守评分，不能据此断言作者虚构。",
+  "snapshot_note": "该基线记录修正前状态；影视示例的四周/八周冲突在基线确认后已修复，历史评分不回写。",
+  "evaluations": [
+    {
+      "case_id": "baseline-linux-example",
+      "reviewer_id": "independent-rubric-reviewer",
+      "blockers": [],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 2,
+          "evidence_paths": [
+            "cover.info_items",
+            "cover.school",
+            "lessons[*].env_resources"
+          ],
+          "reason": "具体事实未保存来源、未知项或假设记录。"
+        },
+        {
+          "id": "D2",
+          "score": 1,
+          "evidence_paths": [
+            "cover.school",
+            "cover.info_items[2][1]",
+            "lessons[5].stage_execute"
+          ],
+          "reason": "学校、教师和版本相关断言缺少来源，无法从成品证明真实性。"
+        },
+        {
+          "id": "D3",
+          "score": 2,
+          "evidence_paths": [
+            "lessons[*].knowledge_obj",
+            "lessons[*].ability_obj",
+            "lessons[*].quality_obj"
+          ],
+          "reason": "能力目标多有可见产出，知识与素养目标仍缺条件和阈值。"
+        },
+        {
+          "id": "D4",
+          "score": 3,
+          "evidence_paths": [
+            "lessons[*].ability_obj",
+            "lessons[*].stage_execute",
+            "lessons[*].stage_evaluate"
+          ],
+          "reason": "主要能力目标有活动和评价，但缺少逐目标显式映射。"
+        },
+        {
+          "id": "D5",
+          "score": 3,
+          "evidence_paths": [
+            "lessons[*].stage_intro",
+            "lessons[*].stage_execute"
+          ],
+          "reason": "师生活动较具体，仍有巡视指导等泛化动作。"
+        },
+        {
+          "id": "D6",
+          "score": 2,
+          "evidence_paths": [
+            "lessons[1].stage_execute",
+            "lessons[4].stage_execute",
+            "lessons[*].stage_evaluate"
+          ],
+          "reason": "存在可检查产出，但合格阈值和统一判据不足。"
+        },
+        {
+          "id": "D7",
+          "score": 1,
+          "evidence_paths": [
+            "lessons[*].hours",
+            "lessons[*].stage_intro"
+          ],
+          "reason": "各环节无分钟数，无法核算总时长与任务量。"
+        },
+        {
+          "id": "D8",
+          "score": 3,
+          "evidence_paths": [
+            "lessons[*].env_resources",
+            "lessons[*].stage_execute"
+          ],
+          "reason": "活动与示例给定资源基本相容，少量网络与材料依赖未说明替代方案。"
+        },
+        {
+          "id": "D9",
+          "score": 0,
+          "evidence_paths": [
+            "lessons[*].stage_execute",
+            "lessons[*].stage_share"
+          ],
+          "reason": "没有可执行的基础支架、补救路径和进阶任务。"
+        }
+      ]
+    },
+    {
+      "case_id": "baseline-video-example",
+      "reviewer_id": "independent-gap-reviewer",
+      "blockers": [
+        "B07"
+      ],
+      "dimensions": [
+        {
+          "id": "D1",
+          "score": 1,
+          "evidence_paths": [
+            "cover.info_items",
+            "cover.school",
+            "lessons[*].env_resources"
+          ],
+          "reason": "具体学校、教师、素材和资源未记录来源或待核验状态。"
+        },
+        {
+          "id": "D2",
+          "score": 1,
+          "evidence_paths": [
+            "schedule.notes",
+            "lessons[0].stage_analyze",
+            "lessons[11].knowledge_obj"
+          ],
+          "reason": "同一授课阶段出现四周与八周冲突，且多项素材来源未标注。"
+        },
+        {
+          "id": "D3",
+          "score": 3,
+          "evidence_paths": [
+            "lessons[*].knowledge_obj",
+            "lessons[*].ability_obj"
+          ],
+          "reason": "能力目标多有可观察产出，知识和素养目标仍缺阈值。"
+        },
+        {
+          "id": "D4",
+          "score": 3,
+          "evidence_paths": [
+            "lessons[1].ability_obj",
+            "lessons[1].stage_execute",
+            "lessons[1].stage_evaluate"
+          ],
+          "reason": "大多数核心目标有活动和评价，未覆盖全体及素养目标。"
+        },
+        {
+          "id": "D5",
+          "score": 4,
+          "evidence_paths": [
+            "lessons[*].stage_intro",
+            "lessons[*].stage_analyze",
+            "lessons[*].stage_execute"
+          ],
+          "reason": "师生动作具体，包含现场操作、卡点与检查内容。"
+        },
+        {
+          "id": "D6",
+          "score": 2,
+          "evidence_paths": [
+            "lessons[2].stage_execute",
+            "lessons[5].stage_evaluate",
+            "lessons[11].stage_expand"
+          ],
+          "reason": "产出丰富，但多数缺最低标准、提交方式和全员验收机制。"
+        },
+        {
+          "id": "D7",
+          "score": 1,
+          "evidence_paths": [
+            "lessons[*].hours",
+            "lessons[11].stage_execute"
+          ],
+          "reason": "除个别课次外缺少环节时间，无法核验可行性。"
+        },
+        {
+          "id": "D8",
+          "score": 3,
+          "evidence_paths": [
+            "schedule.notes",
+            "lessons[*].env_resources"
+          ],
+          "reason": "活动与示例中的资源约束总体相容，但多项材料是否可用未确认。"
+        },
+        {
+          "id": "D9",
+          "score": 1,
+          "evidence_paths": [
+            "lessons[4].stage_execute",
+            "lessons[11].stage_execute"
+          ],
+          "reason": "只有零散个别指导，缺少明确基础支架和拓展路径。"
+        }
+      ]
+    }
+  ]
+}

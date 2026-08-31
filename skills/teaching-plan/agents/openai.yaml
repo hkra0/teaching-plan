@@ -1,0 +1,7 @@
+interface:
+  display_name: "教案设计与 Word 排版"
+  short_description: "设计专业教案并生成可验收的 Word 文档"
+  default_prompt: "使用 $teaching-plan 根据我提供的课程信息设计教案并生成 Word 文档。"
+
+policy:
+  allow_implicit_invocation: true
